@@ -1,0 +1,25 @@
+#redBox {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+#blueBox {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    left: -100px;
+}
+
+#yellowBox {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}

@@ -1,0 +1,190 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+hr {
+    border-style: dotted none none none;
+    width: 100px;
+    border-width: 10px;
+    height: 3px;
+    margin-bottom: 100px;
+    color: #EAF6F6
+    ;
+}
+
+.title {
+    font-family: 'Arial Black';
+    margin:50px auto 0 auto;
+    font-size: 5rem;
+    align-content: center;
+}
+
+.subtitle {
+    font-family: 'Consolas', monospace;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+#pro {
+    text-decoration: underline;
+}
+
+#blink {
+    font-size: 2rem;
+    padding-right: 2rem;
+    display: inline-block;
+    position: relative;
+    left: -5;
+}
+
+#blink:after {
+    content: '';
+    width: 2rem;
+    height: 0.01rem;
+    background: #66BFBF;
+    opacity: 0;
+    display: inline-block;
+    animation: blink 0.8s linear infinite alternate;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1{
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: bold;
+    font-family: 'Arial Black';
+}
+
+
+h3 {
+    color: #11999E;
+}
+
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+
+.top-container {
+    background-color: #e4fef6;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    line-height: 5rem;
+}
+
+.middle-container {
+    text-align: center;
+}
+
+.bottom-container {
+    text-align: center;
+    padding: 25px 0 10px 0;
+    color: #11878b;
+    background-color: #85caca;
+}
+
+
+.profile {
+    padding-top: 3rem;
+}
+
+.profile {
+    width: 50%;
+    margin: auto auto 100px auto; 
+}
+
+.profile img {
+    width: 20rem;
+    padding-bottom: 3rem;
+}
+
+
+.skill-row img{
+    width: 10rem;
+}
+
+.skill-row {
+    text-align: left;
+    margin: 100px auto 100px auto;
+    width: 50%;
+    line-height: 2rem;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:#11999E;
+    line-height: 4rem;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    color: #EAF6F6;
+}
+
+
+.racing-games {
+    float: right;
+    margin-left: 30px;
+    
+}
+.drawing{
+    float: left;
+    margin-right: 30px;
+}
+
+.get-in {
+    margin-bottom: 100px;
+}
+
+.btn {
+    background: #21b3b8;
+    background-image: -webkit-linear-gradient(top, #21b3b8, #19868a);
+    background-image: -moz-linear-gradient(top, #21b3b8, #19868a);
+    background-image: -ms-linear-gradient(top, #21b3b8, #19868a);
+    background-image: -o-linear-gradient(top, #21b3b8, #19868a);
+    background-image: linear-gradient(to bottom, #21b3b8, #19868a);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+background: #1cc1c7;
+background-image: -webkit-linear-gradient(top, #1cc1c7, #11999E);
+background-image: -moz-linear-gradient(top, #1cc1c7, #11999E);
+background-image: -ms-linear-gradient(top, #1cc1c7, #11999E);
+background-image: -o-linear-gradient(top, #1cc1c7, #11999E);
+background-image: linear-gradient(to bottom, #1cc1c7, #11999E);
+text-decoration: none;
+}

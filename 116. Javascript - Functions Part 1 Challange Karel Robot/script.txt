@@ -1,0 +1,32 @@
+function main() {
+    repeat(2){
+       oddBeeper();
+       evenBeeper();
+    }
+    oddBeeper();
+ }
+ 
+ function oddBeeper(){
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+ }
+ function evenBeeper(){
+    turnLeft();
+    move();
+    turnLeft();
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+    turnRight();
+    move();
+    turnRight();
+ }
+ 
