@@ -1,10 +1,10 @@
 // Slicing and Extracting Parts of a String
 function sliceName (){
-    let name = "Zuhdi";
-    alert(name.slice(0,5)); 
+    let name = "sapphired";
+    alert(name.slice(0,8)); 
 /* from position 0 before position 5
-Z u h d i
-0 1 2 3 4 */
+s a p p h i r e d
+0 1 2 3 4 5 6 7 8 */
 }
 var tweet = prompt("Compose your tweet");
 alert(tweet.slice(0,140))
